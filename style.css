@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover, a:hover p{
+    color: rgb(206, 219, 219)!important;
+    transition: cubic-bezier(0.0235, 0.82, 0.165, 1);
+}
+p{
+    font-size: 18px;
+    color: rgb(221, 218, 24);
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* menu */
+.menu{
+    margin-top: -8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu img{
+    margin: 0px 15px -20px;
+}
+.menu img:hover{
+    opacity: 0;
+}
+.slice{
+    margin-top: 30px;
+    position: relative;
+}
+.slice .left{
+    width: 400px;
+    position: absolute;
+    left: 150px;
+    top: 528px;
+}
+.slice .left h2{
+
+    font-size: 75px;
+    color: white;
+}
+.left p{
+    margin-top: 20px;
+}
+.btn{
+    padding: 15px 55px;
+    background-color: rgb(95, 41, 194);
+    border-radius: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #302a1c;
+}
+.slice .right{
+    position: absolute;
+    bottom: 100px;
+    right: 90px;
+}
+.hidden{
+    color: #000000;
+    margin-right: 13px;
+    border: none;
+    font-size: 70px;
+    cursor: pointer;
+}
+.hidden:hover{
+    color: #3dc1d3;
+}
+
+/* Banner */
+.banner{
+    margin-top: 20px;
+}
+#bannerLeft{
+    width: 680px;
+    height: 590px;
+    margin-right: 20px;
+    float: left;
+    background: url(images/banner1.2.jpg);
+    background-size: cover;
+    position: relative;
+}
+#bannerRight{
+    width: 500px;
+    height: 700px;
+    float: left;
+    background: url(images/banner2.1);
+    background-size: cover;
+    position: relative;
+}
+.textL{
+    position: absolute;
+    left: 440px;
+    bottom: 75px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.view1{
+    left: 440px;
+    bottom: 50px;
+    text-transform: uppercase;
+}
+.textR{
+    position: absolute;
+    left: 30px;
+    top: 155px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.view2{
+    position: absolute;
+    left: 310px;
+    bottom: 30px;
+    text-transform: uppercase;
+}
+/* Content */
+#title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.sp, .ten, .gia{
+    width: 285px;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+.sp:first-child, .ten:first-child, .gia:first-child{
+    margin-left: 0;
+}
+.sp{
+    margin-bottom: 20px;
+}
+.sp img{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+.ten p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.gia{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.gia span{
+    font-size: 20px;
+    color: #000000;
+}
+/* FOOTER */
+.about{
+    width: 400px;
+    float: left;
+    margin-top: 40px;
+}
+.about p{
+    color: #000;
+}
+.contact{
+    width: 300px;
+    float: left;
+    margin-top: 40px;
+    
+}
+.contact p{
+    color: #000;
+}
+.link{
+    width: 500px;
+    float: left;
+    margin-top: 40px;
+}
+.link p{
+    color: #000;
+}
